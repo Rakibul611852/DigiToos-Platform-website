@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional, ATS-friendly resumes in minutes with AI assistance",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ modern templates",
+      "ATS optimization",
+      "AI content suggestions",
+      "Export to PDF & Word",
+      "LinkedIn profile import"
+    ],
+    "icon": "https://img.icons8.com/color/96/000000/resume.png"
+  },
+  {
+    "id": 2,
+    "name": "Cover Letter AI",
+    "description": "Generate personalized, job-winning cover letters instantly using advanced AI",
+    "price": 9,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Tailored to any job description",
+      "Multiple tone options",
+      "Grammar & style perfection",
+      "Unlimited generations"
+    ],
+    "icon": "https://img.icons8.com/color/96/000000/new-post.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Pro Bundle",
+    "description": "Complete career toolkit: Resume, Cover Letter, LinkedIn Optimization & Interview Prep",
+    "price": 89,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Resume Builder",
+      "Cover Letter AI",
+      "LinkedIn Profile Optimizer",
+      "Interview Question Generator",
+      "1-year updates"
+    ],
+    "icon": "https://img.icons8.com/color/96/000000/briefcase.png"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Profile Booster",
+    "description": "Optimize your LinkedIn profile to attract recruiters and opportunities",
+    "price": 19,
+    "period": "yearly",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "AI headline & summary",
+      "Experience optimization",
+      "Skills & endorsement strategy",
+      "Profile completeness score"
+    ],
+    "icon": "https://img.icons8.com/color/96/000000/linkedin.png"
+  },
+  {
+    "id": 5,
+    "name": "Interview Master",
+    "description": "Practice with AI-powered mock interviews tailored to your target job",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Job-specific questions",
+      "Real-time feedback",
+      "Body language analysis",
+      "Unlimited mock sessions"
+    ],
+    "icon": "https://img.icons8.com/color/96/000000/microphone.png"
+  },
+  {
+    "id": 6,
+    "name": "Job Tracker Premium",
+    "description": "Organize and track all your job applications in one beautiful dashboard",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited applications",
+      "Status tracking",
+      "Deadline reminders",
+      "Application analytics",
+      "Resume version control"
+    ],
+    "icon": "https://img.icons8.com/color/96/000000/task.png"
+  },
+  {
+    "id": 7,
+    "name": "AI Resume Scanner",
+    "description": "Instantly analyze your resume and get ATS score + improvement tips",
+    "price": 12,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "ATS compatibility score",
+      "Keyword gap analysis",
+      "Readability score",
+      "Instant improvement suggestions"
+    ],
+    "icon": "https://img.icons8.com/color/96/000000/artificial-intelligence.png"
+  },
+  {
+    "id": 8,
+    "name": "Executive Career Pack",
+    "description": "Premium package designed for senior professionals and C-level executives",
+    "price": 149,
+    "period": "one-time",
+    "tag": "",
+    "tagType": "",
+    "features": [
+      "Executive resume design",
+      "LinkedIn makeover",
+      "Cover letter suite",
+      "Personal branding strategy",
+      "Priority support"
+    ],
+    "icon": "https://img.icons8.com/color/96/000000/business.png"
+  }
+]
