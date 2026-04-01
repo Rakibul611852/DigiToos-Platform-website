@@ -29,7 +29,7 @@ const Section = () => {
 
         </div>
 
-        <p className="mt-8 text-sm text-gray-300">
+        <p className="mt-8 text-sm text-gray-100">
           14-day free trial • No credit card required • Cancel anytime
         </p>
 
