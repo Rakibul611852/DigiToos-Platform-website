@@ -33,7 +33,7 @@ const TransparentSection = () => {
             </ul>
 
             <div className="card-actions mt-6">
-              <button className="text-white btn  from-indigo-600 via-purple-600 to-pink-500 w-full rounded-full ">
+              <button className="text-white btn  bg-indigo-600  w-full rounded-full ">
                 Get Started Free
               </button>
             </div>
@@ -44,12 +44,12 @@ const TransparentSection = () => {
         <div className="card bg-primary text-primary-content shadow-2xl scale-105 relative">
 
           <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-            <span className="bg-orange-200 text-purple-800  text-xs font-semibold px-4 py-1 rounded-full shadow-lg shadow-zink-300">
+            <span className="bg-orange-400 text-white  text-xs font-semibold px-4 py-1 rounded-full shadow-lg shadow-zink-300">
               Most Popular
             </span>
           </div>
 
-          <div className="card-body from-indigo-600 via-purple-600 to-pink-500 rounded-2xl">
+          <div className="card-body bg-indigo-600 rounded-2xl">
 
             <h2 className="card-title text-2xl font-bold">Pro</h2>
             <p className="text-sm opacity-80">Best for professionals</p>
@@ -100,7 +100,7 @@ const TransparentSection = () => {
             </ul>
 
             <div className="card-actions mt-6">
-              <button className="text-white btn  from-indigo-600 via-purple-600 to-pink-500 w-full rounded-full ">
+              <button className="text-white btn  bg-indigo-600 w-full rounded-full ">
                 Contact Sales
               </button>
             </div>
