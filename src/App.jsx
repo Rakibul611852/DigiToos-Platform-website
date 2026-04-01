@@ -4,7 +4,7 @@ import TransparentSection from './component/TransparentSection';
 import Section from './component/Section';
 import Footer from './component/Footer';
 import Banner from './component/Banner';
-import NavBar from './component/NavBar';
+import NavBar from './component/NavBar'
 import Models from './component/Models';
 import Cart from './component/Cart';
 import Started from './component/Started';
@@ -24,7 +24,7 @@ function App() {
     <>
       <NavBar carts={carts} setActiveTab={setActiveTab} />
 
-      <Banner />
+      <Banner/>
       <BannerSection />
 
       <div className="text-center space-y-4 mt-10 mx-auto">
