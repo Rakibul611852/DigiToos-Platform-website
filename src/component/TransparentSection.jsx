@@ -44,7 +44,7 @@ const TransparentSection = () => {
         <div className="card bg-primary text-primary-content shadow-2xl scale-105 relative">
 
           <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-            <span className="bg-orange-200 text-purple-800  text-xs font-semibold px-4 py-1 rounded-full shadow-lg h-3 w-40 shadow-zink-300">
+            <span className="bg-orange-200 text-purple-800  text-xs font-semibold px-4 py-1 rounded-full shadow-lg shadow-zink-300">
               Most Popular
             </span>
           </div>
