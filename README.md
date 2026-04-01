@@ -62,6 +62,16 @@ npm install
 
 # Run the project
 npm run dev
+
+#Install daisyui 
+npm i -D daisyui@latest
+
+#Install tailwind css
+npm install tailwindcss @tailwindcss/vite
+
+#Build the project 
+npm run build
+
 ```
 
 ---

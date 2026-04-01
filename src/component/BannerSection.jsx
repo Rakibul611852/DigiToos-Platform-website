@@ -1,7 +1,7 @@
 const BannerSection = () => {
   return (
 
-  <div className=" from-indigo-600 via-purple-600 to-pink-500 py-10">
+  <div className="bg-purple-700 py-10">
     
     <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 text-center text-white">
       

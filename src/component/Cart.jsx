@@ -17,14 +17,14 @@ const Cart = ({ carts = [], setCarts }) => {
 
   return (
     <div>
-      <div className="space-y-5 mt-10 max-w-5xl mx-auto border border-gray-200 p-10 rounded-xl shadow-xl">
+      <div className="space-y-5 mt-10 max-w-5xl mx-auto border border-gray-100 p-10 rounded-xl shadow-lg">
 
         <h3 className="text-3xl font-bold mt-7">Your Cart</h3>
 
         {
         carts.length === 0 ? (
-           <div className=" border border-gray-300 p-10 rounded-xl">
-               <img className=" mx-auto border border-gray-200 rounded-full p-5 overflow-hidden bg-purple-100 h-20 w-20" src="/products/shopping-cart.png" alt="" />
+           <div className="p-10 rounded-xl">
+               <img className=" mx-auto border border-gray-200 rounded-full p-5  bg-purple-100 h-20 w-20 shadow-2xl" src="/products/shopping-cart.png" alt="" />
                <p className="text-center text-2xl p-5 text-gray-400">
                 Your cart is empty.
           </p>
@@ -34,9 +34,9 @@ const Cart = ({ carts = [], setCarts }) => {
             {carts.map(item => (
               <div
                 key={item.id}
-                className="flex max-w-5xl mx-auto border p-7 rounded-2xl border-gray-400 shadow-2xl items-center justify-between"
+                className="flex max-w-5xl mx-auto border p-7 rounded-2xl border-gray-100 shadow-2xl items-center justify-between"
               >
-                <div className="flex gap-10">
+                <div className="flex gap-12">
                   
                   <img
                     className="rounded-full border border-gray-200 p-4 h-20 w-20 object-contain"
@@ -46,7 +46,7 @@ const Cart = ({ carts = [], setCarts }) => {
 
                   <div>
                     <h3 className="text-3xl font-bold">{item.name}</h3>
-                    <div>
+                    <div className="">
                       <span className="text-2xl font-bold">
                         ${item.price}
                       </span>
@@ -63,9 +63,9 @@ const Cart = ({ carts = [], setCarts }) => {
               </div>
             ))}
 
-            <div className="flex justify-between border border-gray-700 p-5 rounded-xl text-2xl font-bold">
-              <span>Total</span>
-              <span>${totalPrice}</span>
+            <div className="flex justify-between border border-gray-200 shadow-2xl p-5 rounded-xl  ">
+              <span className="text-3xl font-extrabold">Total</span>
+              <span className="text-3xl font-extrabold">${totalPrice}</span>
             </div>
 
             <button
